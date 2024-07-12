@@ -23,3 +23,7 @@ pdb.python_fu_batch_convert("<path to directory to be converted>", "avif|jxl|web
 * **ext**: String.  The new extension you want to convert the images to.  Should be one of avif, jxl, or webp.
 * **quality**: Positive Integer between 0 and 100.  0 is worst quality, 100 is best quality.  Applies only to avif.
 * **lossless**: Boolean.  0 or 1.  0 is lossy.  1 is lossless.  Applies only to avif.
+
+## Troubleshooting
+
+* Make sure you use forward slashes and not backslashes in your folder path.
